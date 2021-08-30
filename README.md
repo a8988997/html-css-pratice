@@ -1,1 +1,1 @@
-DEMO https://a8988997.github.io/html-css-pratice/
+demo https://a8988997.github.io/html-css-pratice/
