@@ -1,0 +1,82 @@
+body {
+  background-color: #fff5eb;
+  font-size: 18px;
+}
+div {
+  width: 800px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+#header {
+  filter: drop-shadow(12px 12px 7px rgba(158, 158, 158, 0.87));
+  margin-top: 50px;
+  background-color: white;
+}
+#background {
+  width: 800px;
+  height: 400px;
+}
+
+.main {
+  box-sizing: border-box;
+
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+p {
+  line-height: 6px;
+  font-size: 18px;
+}
+form {
+  line-height: 50px;
+}
+label {
+  font-weight: 450;
+}
+input[class="ltext"] {
+  width: 100%;
+  height: 35px;
+  border-bottom: solid 1px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-size: 18px;
+}
+input[type="radio"] {
+  width: 18px;
+  height: 18px;
+}
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+}
+.mytext {
+  width: 100%;
+  height: 150px;
+  font-size: 18px;
+  resize: none;
+}
+input[type="date"] {
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+}
+table {
+  width: 100%;
+  table-layout: fixed;
+  text-align: center;
+  border-collapse: collapse;
+}
+td,
+th {
+  /* border: 1px solid black; */
+}
+.tColor {
+  background-color: #deedf0;
+}
+input[type="submit"] {
+  width: 60px;
+  height: 30px;
+  font-size: 16px;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>住宿滿意度調查</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div id="topImg"><img id="background" src="img/pexels-asad-photo-maldives-3320508.jpg" alt=""></div>
+        
+            <div class="main">
+                <h1>住宿滿意度調查</h1>
+                <p>親愛的貴賓您好：</p>
+                <p>感謝您入住本店，為了提供您更好的住宿品質，請您協助填寫此份住宿滿意度調查表。</p>
+                <p>填寫此表單即能參加抽獎，最大獎品為免費入住總統套房一個月哦！</p> 
+                <p>您寶貴的建議是我們成長的動力。</p><br>
+         
+                <h2>基本住宿資訊</h2>
+                <form>
+                    <label for="name">1.姓名：</label><br>
+                    <input type="text" class="ltext" placeholder="請輸入姓名" ><br>
+                    <label for="sexual">2.性別：</label><br>
+                    <input type="radio" name="sexual"><label for="male">男</label>
+                    <input type="radio" name="sexual"><label for="female">女</label><br>
+                    <label for="name">3.行動電話：</label><br>
+                    <input type="tel" class="ltext" placeholder="ex.xxxx-xxxxxxx" 
+                    pattern="[0-9]{4}-[0-9]{6}"><br>
+                    <label for="name" >4.E-mail：</label><br>
+                    <input type="email" class="ltext" placeholder="請輸入E-mail"><br>
+                    <label for="name" >5.入住房號：</label><br>
+                    <input type="text" class="ltext" placeholder="請輸入房號 ex.A101"><br>
+                    <label for="name" >6.入住日期：</label><br>
+                    <input type="date"><br>
+                    <label for="name" >7.退房日期：</label><br>
+                    <input type="date"><br>
+                    <label for="male">8.此次行程目的：</label><br>         
+                    <input type="radio" name="purpose"><label for="purpose1" >商務出差</label>
+                    <input type="radio" name="purpose"><label for="purpose2" >觀光旅遊</label>
+                    <input type="radio" name="purpose"><label for="purpose3" >其他</label><br>
+                    <label for="male">9.如何得知本旅店：</label><br>           
+                    <input type="checkbox" name="hknow" id="fb"><label for="fb">fb粉絲團</label>
+                    <input type="checkbox" name="hknow" id="google"><label for="google">google搜尋</label>
+                    <input type="checkbox" name="hknow" id="webAd"><label for="webAd">網路廣告</label>
+                    <input type="checkbox" name="hknow" id="friend"><label for="friend">親友推薦</label>
+                    <input type="checkbox" name="hknow" id="exp"><label for="exp">過去住宿經驗</label>
+                    <input type="checkbox" name="hknow" id="exp"><label for="exp">其他</label><br>
+                    <label for="name">10.服務人員滿意度：</label>
+                    <table>
+                        <tr class="tColor">
+                            <th></th>
+                            <th>非常不滿意</th>
+                            <th>不滿意</th>
+                            <th>普通</th>
+                            <th>滿意</th>
+                            <th>非常滿意</th>
+                        </tr>
+                        <tr>
+                            <th>櫃檯人員</th>
+                            <td><input type="radio" name="server1"></td>
+                            <td><input type="radio" name="server1"></td>
+                            <td><input type="radio" name="server1"></td>
+                            <td><input type="radio" name="server1"></td>
+                            <td><input type="radio" name="server1"></td>
+                        </tr>
+                        <tr class="tColor">
+                            <th>房務人員</th>
+                            <td><input type="radio" name="server2"></td>
+                            <td><input type="radio" name="server2"></td>
+                            <td><input type="radio" name="server2"></td>
+                            <td><input type="radio" name="server2"></td>
+                            <td><input type="radio" name="server2"></td>
+                        </tr>
+                        <tr>
+                            <th>司機接送</th>
+                            <td><input type="radio" name="server3"></td>
+                            <td><input type="radio" name="server3"></td>
+                            <td><input type="radio" name="server3"></td>
+                            <td><input type="radio" name="server3"></td>
+                            <td><input type="radio" name="server3"></td>
+                        </tr>
+                        <tr class="tColor">
+                            <th>整體滿意度</th>
+                            <td><input type="radio" name="server4"></td>
+                            <td><input type="radio" name="server4"></td>
+                            <td><input type="radio" name="server4"></td>
+                            <td><input type="radio" name="server4"></td>
+                            <td><input type="radio" name="server4"></td>
+                        </tr>
+                    </table>
+                    <label for="name">11.客房滿意度：</label>
+                    <table>
+                        <tr class="tColor">
+                            <th></th>
+                            <th>非常不滿意</th>
+                            <th>不滿意</th>
+                            <th>普通</th>
+                            <th>滿意</th>
+                            <th>非常滿意</th>
+                        </tr>
+                        <tr>
+                            <th>整潔</th>
+                            <td><input type="radio" name="room1"></td>
+                            <td><input type="radio" name="room1"></td>
+                            <td><input type="radio" name="room1"></td>
+                            <td><input type="radio" name="room1"></td>
+                            <td><input type="radio" name="room1"></td>
+                        </tr>
+                        <tr class="tColor">
+                            <th>舒適</th>
+                            <td><input type="radio" name="room2"></td>
+                            <td><input type="radio" name="room2"></td>
+                            <td><input type="radio" name="room2"></td>
+                            <td><input type="radio" name="room2"></td>
+                            <td><input type="radio" name="room2"></td>
+                        </tr>
+                        <tr>
+                            <th>備品供應</th>
+                            <td><input type="radio" name="room3"></td>
+                            <td><input type="radio" name="room3"></td>
+                            <td><input type="radio" name="room3"></td>
+                            <td><input type="radio" name="room3"></td>
+                            <td><input type="radio" name="room3"></td>
+                        </tr>
+                        <tr class="tColor">
+                            <th>房內設備</th>
+                            <td><input type="radio" name="room4"></td>
+                            <td><input type="radio" name="room4"></td>
+                            <td><input type="radio" name="room4"></td>
+                            <td><input type="radio" name="room4"></td>
+                            <td><input type="radio" name="room4"></td>
+                        </tr>
+                        <tr>
+                            <th>整體滿意度</th>
+                            <td><input type="radio" name="room5"></td>
+                            <td><input type="radio" name="room5"></td>
+                            <td><input type="radio" name="room5"></td>
+                            <td><input type="radio" name="room5"></td>
+                            <td><input type="radio" name="room5"></td>
+                        </tr>
+                    </table>
+                    <label for="name">12.推薦服務人員：</label><br>
+                    <input type="text" class="ltext" placeholder="請輸入推薦人員姓名"><br>
+                    <label for="name">13.推薦原因：</label><br>
+                    <textarea class ="mytext" name="mytext1" id="mytext1" cols="20" rows="6" placeholder="請輸入推薦原因"></textarea><br>
+                    <label for="name">14.其他建議與改善事項：</label><br>
+                    <textarea class ="mytext" name="mytext2" id="mytext2" 
+                    cols="20" rows="6" placeholder="請輸入其他建議與改善事項"></textarea><br>
+                    <input type="submit">
+                </form>
+            </div>
+
+</body>
+</html>
+
+
+
